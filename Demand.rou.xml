@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-16 13:26:47 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" vClass="private" color="red"/>
+    <vType id="bicycle" vClass="bicycle" color="0,128,0"/>
+    <vType id="bike" vClass="motorcycle" color="cyan"/>
+    <vType id="bus" vClass="bus" color="green"/>
+    <vType id="car" vClass="private" color="red"/>
+    <vType id="coach" vClass="coach" color="yellow"/>
+    <vType id="t_0"/>
+    <vType id="t_1"/>
+    <vType id="t_2"/>
+    <vType id="truck" vClass="truck" color="blue"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="1" type="truck" begin="0.00" color="blue" from="E6" to="E18" end="3600.00" vehsPerHour="15"/>
+    <flow id="2" type="truck" begin="0.00" color="blue" from="E8" to="E18" end="3600.00" vehsPerHour="20"/>
+    <flow id="3" type="truck" begin="0.00" color="blue" from="E4" to="E7" end="3600.00" vehsPerHour="50"/>
+    <flow id="b-1" type="bus" begin="0.00" from="E0" to="E7" end="3600.00" vehsPerHour="25"/>
+    <flow id="b-2" type="bus" begin="0.00" from="E6" to="E7" end="3600.00" vehsPerHour="15"/>
+    <flow id="b-3" type="bus" begin="0.00" from="E4" to="E7" end="3600.00" vehsPerHour="20"/>
+    <flow id="bike_1" type="bike" begin="0.00" from="E0" to="E7" end="3600.00" vehsPerHour="100"/>
+    <flow id="bike_10" type="bike" begin="0.00" from="E8" to="E18" end="3600.00" vehsPerHour="250"/>
+    <flow id="bike_11" type="bike" begin="0.00" from="E8" to="E13" end="3600.00" vehsPerHour="100"/>
+    <flow id="bike_12" type="bike" begin="0.00" from="E8" to="E10" end="3600.00" vehsPerHour="50"/>
+    <flow id="bike_13" type="bike" begin="0.00" from="E14" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="bike_14" type="bike" begin="0.00" from="E16" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="bike_2" type="bike" begin="0.00" from="E0" to="E5" end="3600.00" vehsPerHour="100"/>
+    <flow id="bike_3" type="bike" begin="0.00" from="E0" to="E27" end="3600.00" vehsPerHour="90"/>
+    <flow id="bike_4" type="bike" begin="0.00" from="E0" to="E13" end="3600.00" vehsPerHour="50"/>
+    <flow id="bike_5" type="bike" begin="0.00" from="E6" to="E7" end="3600.00" vehsPerHour="150"/>
+    <flow id="bike_6" type="bike" begin="0.00" from="E4" to="E7" end="3600.00" vehsPerHour="150"/>
+    <flow id="bike_8" type="bike" begin="0.00" from="E6" to="E18" end="3600.00" vehsPerHour="200"/>
+    <flow id="bike_9" type="bike" begin="0.00" from="E6" to="E13" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_0" type="car" begin="0.00" departSpeed="20.00" color="red" from="E0" to="E5" end="3600.00" vehsPerHour="25"/>
+    <flow id="f_1" type="car" begin="0.00" color="red" from="E8" to="E10" end="3600.00" vehsPerHour="120"/>
+    <flow id="f_10" type="car" begin="0.00" color="red" from="E11" to="E13" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_101" type="bike" begin="0.00" from="E0" to="E7" end="3600.00" vehsPerHour="100"/>
+    <flow id="f_102" type="bike" begin="0.00" from="E0" to="E5" end="3600.00" vehsPerHour="100"/>
+    <flow id="f_103" type="bike" begin="0.00" from="E0" to="E27" end="3600.00" vehsPerHour="100"/>
+    <flow id="f_104" type="bike" begin="0.00" from="E0" to="E13" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_11" type="car" begin="0.00" color="red" from="E11" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_12" type="car" begin="0.00" color="red" from="E8" to="E27" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_13" type="car" begin="0.00" color="red" from="E8" to="E5" end="3600.00" vehsPerHour="60"/>
+    <flow id="f_14" type="car" begin="0.00" color="red" from="E8" to="E7" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_16" type="car" begin="0.00" color="red" from="E8" to="E13" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_17" type="car" begin="0.00" color="red" from="E8" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_18" type="car" begin="0.00" color="red" from="E6" to="E5" end="3600.00" vehsPerHour="75"/>
+    <flow id="f_19" type="car" begin="0.00" color="red" from="E6" to="E27" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_2" type="car" begin="0.00" departSpeed="30.00" color="red" from="E0" to="E27" end="3600.00" vehsPerHour="45"/>
+    <flow id="f_20" type="car" begin="0.00" color="red" from="E6" to="E7" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_21" type="car" begin="0.00" color="red" from="E6" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_22" type="car" begin="0.00" color="red" from="E6" to="E10" end="3600.00" vehsPerHour="120"/>
+    <flow id="f_23" type="car" begin="0.00" color="red" from="E6" to="E13" end="3600.00" vehsPerHour="60"/>
+    <flow id="f_4" type="car" begin="0.00" departSpeed="5.00" color="red" from="E0" to="E10" end="3600.00" vehsPerHour="90"/>
+    <flow id="f_5" type="car" begin="0.00" departSpeed="15.00" color="red" from="E0" to="E13" end="3600.00" vehsPerHour="60"/>
+    <flow id="f_6" type="car" begin="0.00" departSpeed="40.00" color="red" from="E0" to="E18" end="3600.00" vehsPerHour="45"/>
+    <flow id="f_7" type="car" begin="0.00" color="red" from="E14" to="E15" end="3600.00" vehsPerHour="90"/>
+    <flow id="f_8" type="car" begin="0.00" color="red" from="E14" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_9" type="car" begin="0.00" color="red" from="E16" to="E18" end="3600.00" vehsPerHour="50"/>
+    <flow id="t_1" type="truck" begin="0.00" color="blue" from="E0" to="E27" end="3600.00" vehsPerHour="50"/>
+    <flow id="t_10" type="truck" begin="0.00" color="blue" from="E4" to="E13" end="3600.00" vehsPerHour="12"/>
+    <flow id="t_11" type="truck" begin="0.00" color="blue" from="E4" to="E18" end="3600.00" vehsPerHour="16"/>
+    <flow id="t_15" type="truck" begin="0.00" color="blue" from="E14" to="E18" end="3600.00" vehsPerHour="15"/>
+    <flow id="t_2" type="truck" begin="0.00" color="blue" from="E0" to="E18" end="3600.00" vehsPerHour="18"/>
+    <flow id="t_3" type="truck" begin="0.00" color="blue" from="E0" to="E13" end="3600.00" vehsPerHour="10"/>
+    <flow id="t_4" type="truck" begin="0.00" color="blue" from="E0" to="E5" end="3600.00" vehsPerHour="10"/>
+    <flow id="t_5" type="truck" begin="0.00" color="blue" from="E0" to="E7" end="3600.00" vehsPerHour="15"/>
+    <flow id="t_6" type="truck" begin="0.00" color="blue" from="E0" to="E13" end="3600.00" vehsPerHour="30"/>
+    <flow id="t_7" type="truck" begin="0.00" color="blue" from="E4" to="E5" end="3600.00" vehsPerHour="15"/>
+    <flow id="t_8" type="truck" begin="0.00" color="blue" from="E4" to="E7" end="3600.00" vehsPerHour="16"/>
+    <flow id="t_9" type="truck" begin="0.00" color="blue" from="E4" to="E27" end="3600.00" vehsPerHour="10"/>
+    <flow id="f_3" type="car" begin="5.00" departSpeed="30.00" color="red" from="E0" to="E7" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_28" type="car" begin="7.00" color="red" from="E4" to="E13" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_24" type="car" begin="15.00" color="red" from="E4" to="E5" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_26" type="car" begin="15.00" color="red" from="E4" to="E27" end="3600.00" vehsPerHour="40"/>
+    <flow id="f_27" type="car" begin="15.00" color="red" from="E4" to="E10" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_29" type="car" begin="15.00" color="red" from="E4" to="E18" end="3600.00" vehsPerHour="32"/>
+    <flow id="f_25" type="car" begin="20.00" color="red" from="E4" to="E7" end="3600.00" vehsPerHour="50"/>
+</routes>

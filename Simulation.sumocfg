@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-16 13:26:33 by Eclipse SUMO sumo Version 1.20.0 -->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="MainNetworkFile.net.xml"/>
+        <route-files value="Demand.rou.xml"/>
+        <gui-settings-file value="MapDecals.xml"/>
+    </input>
+
+    <output>
+        <!-- Corrected file paths with forward slashes -->
+        <tripinfo-output value="H:\SUMO- Study Area\tripinfo-output.xml" />
+        <queue-output value="H:\SUMO- Study Area\queue-output.xml" />
+        <summary-output value="H:\SUMO- Study Area\summary-output.xml" />
+<full-output value="H:\SUMO- Study Area\full-output.xml" />
+<vehroute-output value="H:\SUMO- Study Area\vehroute-output.xml" />
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <time-to-teleport value="-1"/>
+</configuration>
